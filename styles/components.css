@@ -1,0 +1,52 @@
+.main {
+	margin-bottom: 1.2rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	flex-flow: row wrap;
+}
+
+.block {
+	flex: 1 1 1.2rem;
+	padding: 1rem;
+	margin: 1.6rem;
+}
+.block-full {
+	flex: 1 1 100%;
+}
+
+.media-content {
+	justify-content: flex-end;
+	display: flex;
+}
+
+.description {
+	text-align: left;
+}
+
+.title {
+	font-size: 4.8rem;
+	line-height: .8;
+}
+.title .big {
+	font-size: 6rem;
+}
+.title .small {
+	font-size: 2.5rem;
+}
+.text-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	gap: 0.3rem;
+}
+
+.push-right {
+	margin-left: 1.6rem;
+}
+
+input {
+	margin-bottom: 1rem;
+}
