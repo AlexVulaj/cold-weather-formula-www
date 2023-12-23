@@ -1,0 +1,19 @@
+<html lang="en-US">
+<head>
+    <title>The Drinking in the Winter Formula</title>
+    <script src="index.js"></script>
+</head>
+<body onload="getPosition()">
+<h1>The Drinking in the Winter Formula</h1>
+<div>Inspired by <a href="https://www.instagram.com/reel/C0mQLLKuypA/">this video</a> from <a
+        href="https://www.maxstjohncomedy.com/">Max St John</a></div>
+<div>Your current temperature:<span id="currentTemp"></span></div>
+<form name="theForm" onsubmit="return false">
+    <label for="drinks">Drinks consumed:</label><br/>
+    <input type="number" id="drinks" name="drinks"/><br/>
+    <input type="submit" value="Submit"
+           onclick="document.getElementById('result').innerHTML = 'Your adjusted winter drink total is: ' + calcAdjustedTotal(temp, theForm.drinks.value)"/>
+</form>
+<div id="result"></div>
+</body>
+</html>
